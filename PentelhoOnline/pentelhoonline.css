@@ -1,0 +1,324 @@
+html { 
+	overflow-y: scroll; /* CSS 3 - Força a inclusão de um scrollbar quando a viewport é maior que a tela */
+}
+
+body{ 
+	margin: 0; 
+	padding: 0; 
+	font-size: 18px; 
+	font-family: Archivo Narrow; 
+}
+
+#header, #container, #footer {
+	display: block; 
+	width: 960px; 
+	margin: 0 auto;
+}
+
+nav ul {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+
+h2 {
+	margin: 0; 
+	padding: 0; 
+	font-size: 22px; 
+	font-weight: normal; 
+	font-style: italic; 
+	line-height: normal; 
+	font-weight: bold;
+}
+
+a { 
+	outline: none; 
+	text-decoration: none;
+}
+
+figure {
+	display: block; 
+	margin: 0; 
+	padding: 0;
+}
+
+#container {
+	padding: 30px 0;
+}
+
+#container section {
+	display: block; 
+	margin-bottom: 30px; 
+	padding: 0;
+}
+
+#container #slider {
+	width: 100%;
+}
+
+#container #slider figure img {
+	float: right; 
+	width: 630px; 
+	height: 300px;
+}
+
+#container #slider figure figcaption {
+	display: block; 
+	float: left; 
+	width: 290px; 
+	height: 260px; 
+	padding: 20px; 
+	overflow: hidden; 
+	color: #989898; 
+	background-color: #464646; 
+	line-height: 1.6em;
+}
+
+#container #slider figure figcaption a {
+	color: #25d366; 
+	background-color: #464646;
+}
+
+#container #slider figure h2 {
+	font-size: 42px; 
+	font-weight: normal; 
+	font-style: italic; 
+	text-transform: none;
+}
+
+#container #intro {
+	width: 100%; 
+	margin-bottom: 30px; 
+	padding-bottom: 10px; 
+	border-bottom: 1px solid #D6D6D6;
+}
+
+#container #intro2 {
+	width: 100%; 
+	margin-bottom: 10px; 
+	padding-bottom: 10px; 
+	border-bottom: 1px solid #D6D6D6;
+}
+
+#container #intro section article figure ul {
+	display: block; 
+	width: 100%; 
+	padding: 0; 
+	list-style: none; 
+	margin-right: -50%;
+}
+
+#container #intro section article figure ul li {
+	display: inline-block; 
+	float: left; 
+	margin: 0 25px 0 0;
+}
+
+#container #intro section article figure ul li img {
+	width: 60px; 
+	height: 60px; 
+	margin: 0; 
+}
+
+#container #intro section article figure figcaption {
+	display: block; 
+	width: 100%; 
+	margin-top: 20px; 
+	clear: both; 
+	text-align: center; 
+	text-transform: uppercase; 
+	font-weight: bold;
+}
+
+section nav li {
+	margin: 0 0 8px 0; 
+	padding: 0 0 5px 0;
+}
+
+.corpo:after { /* coloca esse elemento após os elementos de classe "corpo" */
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0;
+}
+
+.float_esq {
+	float: left;
+}
+
+.float_dir {
+	float: right;
+}
+
+.linha2{
+	color: #979797; 
+	background-color: #7f7f7f;
+}
+
+.linkpreto {
+	font-size: 18px; 
+	color: #000000; 
+}
+
+.linha2 a {
+	font-size: 18px; 
+}
+
+.linha3, .linha3 a {
+	color: #919191; 
+	background-color: #232323;
+}
+
+.button { 
+	width: 100%; 
+	display: inline-block; 
+	background: #25d366; 
+	border-radius: 28px; 
+	font-size: 14px; 
+	color: #FFFFFF; 
+	padding: 8px 12px; 
+	cursor: pointer; 
+}
+
+.button:hover { 
+	background: #20bf5b; 
+}
+
+.umquarto, .metade, .tresquartos, .inteiro {
+	display: block; 
+	float: left; 
+	margin: 0 20px 0 0;
+}
+
+.umquarto {
+	width: 225px;
+}
+
+.metade {
+	width: 270px;
+}
+
+.tresquartos {
+	width: 715px;
+}
+
+.inteiro {
+	width: 960px; 
+	float: none; 
+	margin-right: 0; 
+	clear: both;
+}
+
+.inteiro p {
+	text-align: center; 
+	color: #FFFFFF
+}
+
+.ultimo {
+	margin-right:0;
+}
+
+.img2 { /* Rotacionar imagem, comandos para diferentes navegadores */
+	-webkit-transform: rotate(45deg); 
+	-moz-transform: rotate(45deg); 
+	-ms-transform: rotate(45deg); 
+	-o-transform: rotate(45deg); 
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+}
+
+.contemais {
+	text-align: right;
+}
+
+.loginlinks img { 
+	width: 40px; 
+	height: 40px; 
+	margin: 0; 
+	padding: 0 12px 12px 20px; 
+}
+
+.exServicos {
+	border-radius: 50%; 
+	width: 190px; 
+	height: 150px; 
+	padding: 19% 0 10px 0; 
+	background: #25d366; 
+	text-align: center; 
+	margin-left: 25%; 
+	color: #FFFFFF; 
+	font-size: 24px; 
+	-webkit-transform: rotate(-45deg); 
+	-moz-transform: rotate(-45deg); 
+	-ms-transform: rotate(-45deg); 
+	-o-transform: rotate(-45deg); 
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.instrucoes {
+	display: block; 
+	float: left; 
+	width: 250px; 
+	height: 160px; 
+	padding: 20px; 
+	overflow: hidden; 
+	color: #989898; 
+	background-color: #464646; 
+	line-height: 1.6em;
+}
+
+.instrucoes h2 {
+	color: #FFFFFF
+}
+
+.entreinstrucoes {
+	float: left; 
+	width: 35px; 
+	align-items: center; 
+	font-weight: bold; 
+	margin: 5px; 
+	text-align: center; 
+	padding: 80px 0 0 0; 
+	font-size: 30px;
+}
+
+.entreinstrucoes img {
+	width: 30px; 
+	height: 30px; 
+}
+
+.portfolio {
+	display: block; 
+	float: left; 
+	width: 96%; 
+	height: 190px; 
+	padding: 20px; 
+	overflow: hidden; 
+	color: #989898; 
+	background-color: #1CAF53; 
+	line-height: 1.6em;
+}
+
+.portfolio h2 {
+	color: #FFFFFF; 
+	font-size; 300px; 
+}
+
+.portfolio p {
+	color: #FFFFFF; 
+}
+
+.imgsportfolio { 
+	display: block; 
+	float: left; 
+	width: 100%; 
+}
+
+.imgcliente { 
+	display: block; 
+	float: left; 
+	width: 50px; 
+	height: 50px; 
+	padding: 20px 0 0 20%; 
+}
