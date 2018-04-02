@@ -1,5 +1,5 @@
 html { 
-	overflow-y: scroll; /* CSS 3 - Força a inclusão de um scrollbar quando a viewport é maior que a tela */
+	overflow-y: scroll; /* CSS 3 - Forï¿½a a inclusï¿½o de um scrollbar quando a viewport ï¿½ maior que a tela */
 }
 
 body{ 
@@ -185,7 +185,7 @@ section nav li {
 	padding: 0 0 5px 0;
 }
 
-.corpo:after { /* coloca esse elemento após os elementos de classe "corpo" */
+.corpo:after { /* coloca esse elemento apï¿½s os elementos de classe "corpo" */
 	content: "."; 
 	display: block; 
 	height: 0; 
