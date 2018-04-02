@@ -142,6 +142,8 @@ figure {
 	color: #000;
 }
 
+
+
 #formCadastroInimigo .form-group {
 	display: flex;
 	align-items: center;
@@ -378,4 +380,58 @@ section nav li {
 	width: 50px; 
 	height: 50px; 
 	padding: 20px 0 0 20%; 
+}
+
+.metodo{
+position: relative;
+    left: 125px;
+    top: -59px;
+    padding: 4px;
+	width: 300px;
+    font-size: 13px;
+    margin: 11px 1px;
+    border-radius: 28px;
+}
+.form-pesq{
+	width:70%;
+	margin: 10px 0px;
+}
+
+.form-pesq input{
+    width: 70%;
+    margin: 10px 0px;
+    height: 24px;
+    border-radius: 28px;
+    border: 0px;;
+}
+
+
+.formIncomodar{
+	margin: 10px 15px;
+}
+
+
+.formIncomodar h5,form,h4 {
+	color: #000;
+}
+
+.tableinc table{
+	color: #000;
+    background: #fff;
+	font-size:14px;
+	WIDTH:90%;
+}
+.child_dob{
+	margin: 10px 25px;
+	
+}
+
+.child_dobfinal{
+	margin: 10px 25px;
+	
+}
+
+.botaoradio{
+	margin: 10px 15px;
+	
 }
