@@ -144,8 +144,6 @@ figure {
 	color: #000;
 }
 
-
-
 #formCadastroInimigo .form-group {
 	display: flex;
 	align-items: center;
@@ -437,4 +435,20 @@ position: relative;
 .botaoradio{
 	margin: 10px 15px;
 	
+}
+
+.flex-row-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-colunm-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-align-items-center {
+	align-items: center;
+}
+}
 }
