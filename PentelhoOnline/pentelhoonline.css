@@ -130,6 +130,59 @@ figure {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+#formCadastroInimigo {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#formCadastroInimigo h5 {
+	margin: 0;
+	color: #000;
+}
+
+
+
+#formCadastroInimigo .form-group {
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+	width: 100%;
+}
+
+#formCadastroInimigo .form-group-textarea {
+	align-items: flex-start;
+}
+
+#formCadastroInimigo .form-button {
+	justify-content: flex-end;
+}
+
+#formCadastroInimigo .form-group input {
+	margin: 0 5px;
+	width: 100%;
+	height: 28px;
+}
+
+#formCadastroInimigo .form-group textarea {
+	margin: 0 5px;
+	width: 100%;
+	height: 60px;
+}
+
+#formCadastroInimigo .material-icons {
+	font-size: 24px;
+	color: #000;
+}
+
+#btnCadastrar {
+	width: 160px;
+}
+
+>>>>>>> e0003a0a20df38644be1a0d3ac104611be01ff87
 section nav li {
 	margin: 0 0 8px 0; 
 	padding: 0 0 5px 0;
@@ -330,4 +383,58 @@ section nav li {
 	width: 50px; 
 	height: 50px; 
 	padding: 20px 0 0 20%; 
+}
+
+.metodo{
+position: relative;
+    left: 125px;
+    top: -59px;
+    padding: 4px;
+	width: 300px;
+    font-size: 13px;
+    margin: 11px 1px;
+    border-radius: 28px;
+}
+.form-pesq{
+	width:70%;
+	margin: 10px 0px;
+}
+
+.form-pesq input{
+    width: 70%;
+    margin: 10px 0px;
+    height: 24px;
+    border-radius: 28px;
+    border: 0px;;
+}
+
+
+.formIncomodar{
+	margin: 10px 15px;
+}
+
+
+.formIncomodar h5,form,h4 {
+	color: #000;
+}
+
+.tableinc table{
+	color: #000;
+    background: #fff;
+	font-size:14px;
+	WIDTH:90%;
+}
+.child_dob{
+	margin: 10px 25px;
+	
+}
+
+.child_dobfinal{
+	margin: 10px 25px;
+	
+}
+
+.botaoradio{
+	margin: 10px 15px;
+	
 }
