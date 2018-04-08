@@ -130,8 +130,6 @@ figure {
 	font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
 #formCadastroInimigo {
 	margin: 10px;
 	display: flex;
@@ -180,7 +178,7 @@ figure {
 	width: 160px;
 }
 
->>>>>>> e0003a0a20df38644be1a0d3ac104611be01ff87
+
 section nav li {
 	margin: 0 0 8px 0; 
 	padding: 0 0 5px 0;
@@ -240,6 +238,7 @@ section nav li {
 .button-activate {
 	color: #25d366;
 	background: #FFF;
+	cursor: default;
 }
 
 .button-activate:hover {
@@ -449,4 +448,8 @@ position: relative;
 
 .flex-align-items-center {
 	align-items: center;
+}
+
+.flex-align-items-end {
+	align-items: flex-end;
 }
