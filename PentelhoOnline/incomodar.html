@@ -52,7 +52,7 @@
 						<form class="formIncomodar" method="post">
 							<h4>Incomodar inimigo</h4>
 
-							<div class="form-pesq">
+							<div class="form-pesq flex-row-container flex-align-items-center">
 								<i class="material-icons">search</i>
 								<input type="text" name="nome" placeholder=" Nome" required>
 							</div>
@@ -96,36 +96,41 @@
 										</select>									
 									</form>
 								</div>	
-									<form action="" class="botaoradio">
-								  <input type="radio" name="gender" value="agendar"> Agendar<br>
+									<form action="" class="botaoradio flex-colunm-container">
+										<div class="flex-row-container flex-align-items-center">
+											<input type="radio" name="gender" value="agendar"> Agendar<br>
 								  
-								  <div class='child_dob input-group <?php echo $user->parent_type>2 ?'hidden':''?>
-								  <input type='date' class='form-control hidden' name='dob[]' value='<?php echo $dob?>'>
-								  <div class='form-control datedisplay'>
-									 <?php echo date('m/d/Y',strtotime($dob))?>
-								  </div>
-								  <input type='hidden' value='<?php echo $id?>' name='id[]'>
-								  <div class='input-group-addon'>
-									 <span class='cursor glyphicon glyphicon-remove remove_child_dob'></span>
-								  </div>
-								</div>
-								
-								<div>
-									<h5> até </h5>
-								</div>
-								
-								<div class='child_dobfinal input-group <?php echo $user->parent_type>2 ?'hidden':''?>
-								  <input type='date' class='form-control hidden' name='dob[]' value='<?php echo $dob?>'>
-								  <div class='form-control datedisplay'>
-									 <?php echo date('m/d/Y',strtotime($dob))?>
-								  </div>
-								  <input type='hidden' value='<?php echo $id?>' name='id[]'>
-								  <div class='input-group-addon'>
-									 <span class='cursor glyphicon glyphicon-remove remove_child_dob'></span>
-								  </div>
-								</div>
-								  <input type="radio" name="gender" value="agora" checked> Começar Agora!<br>
-								</form>
+											  <div class='child_dob input-group <?php echo $user->parent_type>2 ?'hidden':''?>
+											  <input type='date' class='form-control hidden' name='dob[]' value='<?php echo $dob?>'>
+											  <div class='form-control datedisplay'>
+												 <?php echo date('m/d/Y',strtotime($dob))?>
+											  </div>
+											  <input type='hidden' value='<?php echo $id?>' name='id[]'>
+											  <div class='input-group-addon'>
+												 <span class='cursor glyphicon glyphicon-remove remove_child_dob'></span>
+											  </div>
+											</div>
+											
+											<div>
+												<h5> até </h5>
+											</div>
+											
+											<div class='child_dobfinal input-group <?php echo $user->parent_type>2 ?'hidden':''?>
+											  <input type='date' class='form-control hidden' name='dob[]' value='<?php echo $dob?>'>
+											  <div class='form-control datedisplay'>
+												 <?php echo date('m/d/Y',strtotime($dob))?>
+											  </div>
+											  <input type='hidden' value='<?php echo $id?>' name='id[]'>
+											  <div class='input-group-addon'>
+												 <span class='cursor glyphicon glyphicon-remove remove_child_dob'></span>
+											  </div>
+											</div>
+										</div>
+								  
+									  	<div class="flex-row-container flex-align-items-center">
+									  		<input type="radio" name="gender" value="agora" checked> Começar Agora!<br>
+									  	</div>
+									</form>
 
 							
 							<div class="formIncomodar">
