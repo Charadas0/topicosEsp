@@ -10,6 +10,5 @@ function diminui(obj){
 }
 
 function trocaCor(){
-   var cor = document.getElementById("corum").value;
-   document.getElementById("container").style.backgroundColor = cor;
+   document.getElementById('corum').style.fontcolor = '#FFFFFF';
 }
